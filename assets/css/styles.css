@@ -1006,6 +1006,7 @@ color: var(--body-color);
 
   .work__filters{
     display: grid;
+    grid-template-columns: repeat(3, max-content);
     justify-content: center;
     align-items: center;
     row-gap: .4rem;
