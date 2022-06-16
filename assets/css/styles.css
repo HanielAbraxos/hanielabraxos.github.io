@@ -1020,6 +1020,30 @@ color: var(--body-color);
 
 /* For medium devices */
 
+@media screen and (max-width:283px){
+  .work__filters{
+    display: grid;
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+    row-gap: .4rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width:259px){
+  .work__filters{
+    display: grid;
+    grid-template-columns: repeat(1, max-content);
+    justify-content: center;
+    align-items: center;
+    transition: .3s ease;
+    row-gap: .4rem;
+    margin-bottom: 2rem;
+  }
+}
+
 @media screen and (min-width:413px){
   .home__img{
     width: 190px;
