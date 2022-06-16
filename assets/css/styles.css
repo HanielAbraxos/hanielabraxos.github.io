@@ -928,6 +928,11 @@ color: var(--body-color);
     padding: 1rem 1.5rem;
   }
 
+  .home__container{
+    position: relative;
+    row-gap: 2rem;
+    padding-top: 2rem;
+  }
   .home__social{
     /* bottom: 10rem; */
     left: .5rem;
