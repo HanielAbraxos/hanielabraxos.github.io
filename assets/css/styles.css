@@ -930,8 +930,8 @@ color: var(--body-color);
 
   .home__container{
     position: relative;
-    row-gap: 1.5rem;
-    padding-top: 1.5rem;
+    row-gap: .8rem;
+    padding-top: .8rem;
   }
   .home__social{
     /* bottom: 10rem; */
