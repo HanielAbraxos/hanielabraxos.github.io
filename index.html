@@ -1,0 +1,1052 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="/assets/img/30.jpg" type="image/x-icon">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="/assets/css/styles.css">
+
+    <title> iPortfolio</title>
+</head>
+
+<body>
+    <style>
+        .animation img {
+            -webkit-animation: mover 2s infinite alternate;
+            animation: mover 2s infinite alternate;
+        }
+
+        @-webkit-keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+
+        @keyframes mover {
+            0% {
+                transform: translateY(0);
+            }
+
+            100% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="mini.html" class="nav__logo">Haniel</a>
+
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="bx bx-home-alt"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+                            <i class="bx bx-user"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-book"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">
+                            <i class="bx bx-briefcase-alt-2"></i>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+                            <i class=" bx bx-message-square-detail"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <i class="bx bxs-badge-check"></i>
+            <!-- Theme Change -->
+            <!--                 <i class="bx bx-moon change-theme" id="theme-button"></i> -->
+        </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <span class="home__greeting">Hello I'm</span>
+                    <h1 class="home_name">Sheharyar Malik</h1>
+                    <h3 class="home__education">Soft Electrical Engineer</h3>
+
+                    <div class="home__buttons">
+                        <a download="" href="/assets/pdf/Haniels_iResume-SheharyarMalik.pdf"
+                            class="button button--ghost">Download CV</a>
+                        <a href="#about" class="button">About Me</a>
+                    </div>
+                </div>
+                <div class="home__handle">
+                    <img src="/assets/img/Haniels_iPic.png" alt="" class="home__img">
+                </div>
+                <div class="home__social animation" data-aos="zoom-out" data-aos-delay="200">
+                    <a href="https://www.linkedin.com/in/sheharyar-malik-09b82b235/" target="_blank"
+                        class="home__social-link">
+                        <i class="bx bxl-linkedin-square"></i>
+                    </a>
+                    <a href="https://github.com/" target="_blank" class="home__social-link">
+                        <i class="bx bxl-github"></i>
+                    </a>
+                    <a href="https://facebook.com/VioletLightAngel" target="_blank" class="home__social-link">
+                        <i class="bx bxl-facebook"></i>
+                    </a>
+                    <a href="https://twitter.com/haniels_itweet/status/1496103571510771714" target="_blank"
+                        class="home__social-link">
+                        <i class="bx bxl-twitter"></i>
+                    </a>
+                    <a href="mailto:sheharyar@jfreaks.com" target="_blank" class="home__social-link">
+                        <i class="bx bx-mail-send"></i>
+                    </a>
+                    <a href="https://www.snapchat.com/add/haniel_abraxos?share_id=tUOODKPCPps&locale=en-US"
+                        target="_blank" class="home__social-link">
+                        <i class="bx bxl-snapchat"></i>
+                    </a>
+                    <a href="https://wa.me/0923048668887?text=AsSalam-o-Alaikum%20I'm%20your%20Portfolior%20"
+                        target="_blank" class="home__social-link">
+                        <i class="bx bxl-whatsapp"></i>
+                    </a>
+                </div>
+
+                <a href="#about" class="home__scroll">
+                    <i class="bx bx-mouse home__scroll-icon"></i>
+                    <span class="home__scroll-name">Scroll Down</span>
+                </a>
+            </div>
+        </section>
+
+        <!--=============== ABOUT ===============-->
+        <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container grid animation" data-aos="zoom-out" data-aos-delay="200">
+                <img src="/assets/img/Mosque.jpeg" alt="" class="about__img">
+
+                <div class="about__data">
+                    <div class="about__info">
+                        <div class="about__box">
+                            <i class="bx bx-award about__icon"></i>
+                            <h3 class="about__title">Experience</h3>
+                            <span class="about__subtitle">3 Years</span>
+                        </div>
+
+                        <div class="about__box">
+                            <i class="bx bx-briefcase-alt about__icon"></i>
+                            <h3 class="about__title">Completed</h3>
+                            <span class="about__subtitle">30+ Projects</span>
+                        </div>
+                        <div class="about__box">
+                            <i class="bx bx-support about__icon"></i>
+                            <h3 class="about__title">Support</h3>
+                            <span class="about__subtitle">Available</span>
+                        </div>
+                    </div>
+                    <p class="about__description">As a Software Engineer, I specialize in frontend and backend development using tools like <b class="desc__info">React, Tailwindcss, Java, and Spring Framework</b>. I manage server infrastructure with <b class="desc__info">Apache Tomcat, NGINX, and Docker</b>, and optimize data handling with <b class="desc__info">ElasticSearch, Redis, and Postgres</b>. My skills in <b class="desc__info">Python, Shell Scripting and API security</b> ensure efficient, secure, and scalable software solutions.</p><a href="#contact" class="button">Contact Me</a>
+                </div>
+            </div>
+
+        </section>
+        <!--=============== SKILLS ===============-->
+        <section class="skills section" id="skills">
+            <span class="section__subtitle">My Abilities</span>
+            <h2 class="section__title">My Experience</h2>
+
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Frontend Development</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">HTML/CSS</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">TailwindCss</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">JavaScript/TypeScript</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Bootstrap</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">React/Next.js</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">UI/UX and SEO</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Backend Languages</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Spring Framework</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">C++</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Python</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Spring Batch</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Go lang</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills__container container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title">Server Insfrastructure</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Apache Tomcat</h3>
+                                    <span class="skills__level">Basics</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Apache HTTP Server</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">NGINX</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">API Rate Limiting & Security</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Docker</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">API Integration</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title">Data Management</h3>
+
+                    <div class="skills__box">
+                        <div class="skills__group">
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">ElasticSearch</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Cloud Platforms</h3>
+                                    <span class="skills__level">Intermediate</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">RESTful API</h3>
+                                    <span class="skills__level">Advanced</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <div class="skills__group">
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Redis</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Postgres Database</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+                            <div class="skills__data">
+                                <i class="bx bxs-badge-check"></i>
+                                <div>
+                                    <h3 class="skills__name">Shell Scripting</h3>
+                                    <span class="skills__level">Advnaced</span>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== SERVICES ===============-->
+        <section class="services section">
+            <span class="section__subtitle">My Services</span>
+            <h2 class="section__title">What I Offer</h2>
+
+            <div class="services__container container grid">
+                <div class="services__card">
+                    <h3 class="services__title">Product <br> Designer</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title"> Product Designer </h3>
+                            <p class="services__modal-description">Design, develop, and implement tailored software
+                                solutions that meet your specific business needs and requirements.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Develop robust and scalable backend systems that
+                                        ensure smooth and efficient data processing and management.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Design and integrate APIs for seamless communication
+                                        between different software components and third-party services.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Plan and architect scalable, maintainable systems
+                                        that align with your long-term business goals.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Perform comprehensive testing and QA to ensure your
+                                        software is reliable, secure, and bug-free.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Provide ongoing maintenance and support to keep your
+                                        software up-to-date, secure, and performing optimally.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Web <br> Development</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Web Designer</h3>
+                            <p class="services__modal-description">Build fully customized, responsive websites tailored
+                                to your brand, ensuring an engaging and user-friendly experience across all devices.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Create visually stunning and interactive user
+                                        interfaces using the latest front-end technologies like HTML5, CSS3,
+                                        Tailwindcss, JavaScript, and modern frameworks such as React or Next.js.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Design and develop robust e-commerce platforms with
+                                        features like product management, payment gateways, and user-friendly shopping
+                                        experiences.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Enhance website performance, speed, and SEO to
+                                        improve user experience and search engine rankings.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Integrate third-party APIs to extend the
+                                        functionality of your website, including payment gateways, social media, and
+                                        analytics tools.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Provide ongoing website maintenance, updates, and
+                                        support to ensure your site remains secure, up-to-date, and fully functional.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">UI/UX and <br> SEO</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title"> UI/UX and SEO</h3>
+                            <p class="services__modal-description">I specialize in designing user-centric interfaces with Figma, creating interactive prototypes, and ensuring seamless collaboration with developers with advanced SEO.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Design intuitive and user-centric interfaces in
+                                        Figma, ensuring a seamless and engaging user experience across all platforms.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Create interactive prototypes in Figma to visualize
+                                        and iterate on design concepts, enabling early user testing and feedback
+                                        integration.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Collaborate with developers by providing detailed
+                                        design specifications and assets from Figma, ensuring pixel-perfect
+                                        implementation.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Implement advanced SEO strategies, including keyword
+                                        research, on-page optimization, and technical SEO, to enhance website visibility
+                                        and ranking.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Optimize site structure, metadata, and content for
+                                        search engines to ensure maximum discoverability and traffic generation.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Conduct SEO audits and performance analysis to
+                                        identify opportunities for improvement and to keep up with the latest search
+                                        engine algorithms.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Backend <br> Application</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title"> Backend Application</h3>
+                            <p class="services__modal-description">Lorem ipsum dolor sit, amet consectetur adipisicing
+                                elit. Distinctio!</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Design and implement robust batch processing
+                                        applications using Java Spring Batch, capable of handling large volumes of data
+                                        efficiently and reliably.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Seamlessly integrate SQL databases (e.g., MySQL,
+                                        PostgreSQL, Oracle) with Spring Batch applications for efficient data retrieval,
+                                        processing, and storage.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Develop custom batch jobs tailored to your specific
+                                        business processes, including data transformation, migration, reporting, and
+                                        more.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Ensure data integrity and consistency through
+                                        transactional processing in Spring Batch, utilizing SQL to manage complex
+                                        transactions effectively.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Implement robust error handling and retry mechanisms
+                                        within your batch jobs to ensure reliability and minimize data loss or
+                                        corruption.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Optimize batch jobs and SQL queries for maximum
+                                        performance, reducing processing time and improving overall efficiency.</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__card">
+                    <h3 class="services__title">Data <br> Management</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title"> Data Management</h3>
+                            <p class="services__modal-description">Enhance your system's real-time data processing and
+                                caching capabilities for improved performance and low latency.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Implement scalable and efficient search and
+                                        analytics solutions tailored to your data needs.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Streamline your data pipelines with automated
+                                        solutions that boost productivity and efficiency.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Automate system-level operations to ensure smooth
+                                        and reliable task execution.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">By combining these technologies, I deliver
+                                        high-performance, scalable solutions designed to meet your specific
+                                        requirements.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">My expertise in Python allows me to automate complex
+                                        data pipelines, while Shell Scripting ensures efficient system-level operations
+                                        and task automation, resulting in streamlined, high-performance applications.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="services__card">
+                    <h3 class="services__title">Server <br> Deployments</h3>
+
+                    <span class="services__button work__button">
+                        See More <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </span>
+                    <div class="services__modal">
+                        <div class="services__modal-content">
+                            <i class="bx bx-x services__modal-close"></i>
+
+                            <h3 class="services__modal-title">Server Setup</h3>
+                            <p class="services__modal-description">I provide expert server deployment and management
+                                using Tomcat, Nginx, Tmux, Docker, and API rate limiting for secure and scalable
+                                applications.</p>
+
+                            <ul class="services__modal-list">
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Deploy and manage high-performance web applications
+                                        using Apache Tomcat and Nginx, ensuring optimal load balancing and scalability.
+                                    </p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Utilize Tmux for efficient session management during
+                                        deployments, allowing for seamless multitasking and uninterrupted service
+                                        monitoring.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Configure and maintain HTTP servers to handle
+                                        complex web serving requirements, ensuring secure and efficient data
+                                        transmission.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Leverage Docker for containerized deployments,
+                                        providing consistent and isolated environments across development, staging, and
+                                        production stages.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Implement API rate limiting strategies to protect
+                                        web services from abuse, ensuring fair resource distribution and maintaining
+                                        service quality.</p>
+                                </li>
+                                <li class="services__modal-item">
+                                    <i class="bx bx-check services__modal-icon"></i>
+                                    <p class="services__modal-info">Integrate monitoring and logging tools to track
+                                        server performance, detect issues early, and optimize resource utilization.</p>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--=============== WORK ===============-->
+        <section class="work section" id="work">
+            <span class="section__subtitle">My Portfolio</span>
+            <h2 class="section__title">Recent Works</h2>
+
+            <div class="work__filters">
+                <span class="work__item active-work" data-filter='all'>All</span>
+                <span class="work__item active-work" data-filter=".web">Web</span>
+                <span class="work__item active-work" data-filter=".mobile">Mobile</span>
+                <span class="work__item active-work" data-filter=".design">Design</span>
+            </div>
+
+            <div class="work__container container grid">
+
+                <div class="work__card mix web">
+                    <img src="/assets/img/iCinema.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Cinema iPreview</h3>
+                    <a href="iCinema/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="/assets/img/iTracks.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">The iTracks</h3>
+                    <a href="iTracks/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="/assets/img/iNames.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Haniel's iNames</h3>
+                    <a href="iNames/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="/assets/img/iGraBlobs.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Gradient iBlobs</h3>
+                    <a href="iGraBlobs/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix web">
+                    <img src="/assets/img/iGrid.png" alt="" class="work__img">
+
+                    <h3 class="work__title">iProjects</h3>
+                    <a href="/Project iStyles/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <!-- <div class="work__card mix mobile">
+                    <img src="/assets/img/work2.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">App Design</h3>
+                    <a href="" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix design">
+                    <img src="/assets/img/work3.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Illustration</h3>
+                    <a href="" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div> -->
+
+                <div class="work__card mix design">
+                    <img src="/assets/img/iGrids.jpg" alt="" class="work__img">
+
+                    <h3 class="work__title">Flowing iGrids</h3>
+                    <a href="iGrids/index.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix mobile">
+                    <img src="/assets/img/iDynamic.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Dynamic iLand</h3>
+                    <a href="Dynamic iLand/dynamic.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+
+                <div class="work__card mix mobile">
+                    <img src="/assets/img/iResume-Mini.png" alt="" class="work__img">
+
+                    <h3 class="work__title">Mini Portfolio</h3>
+                    <a href="mini.html" class="work__button">Demo
+                        <i class="bx bx-right-arrow-alt work__icon"></i>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!--=============== TESTIMONIALS ===============-->
+        <section class="testimonial section">
+            <span class="section__subtitle">My clients say</span>
+            <h2 class="section__title">Testimonial</h2>
+
+            <div class="testimonial__container container swiper">
+                <!-- ------------------- -->
+                <div class="swiper-wrapper">
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial1.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">Sparkllin Snobx</h3>
+                        <p class="testimonial__description">The frontend design is a masterpiece—sleek, intuitive, and
+                            visually stunning, offering a seamless user experience that’s a joy to interact with!</p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial2.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">iName</h3>
+                        <p class="testimonial__description">The backend architecture is pure genius, delivering
+                            lightning-fast performance and rock-solid stability that makes everything just work
+                            effortlessly.</p>
+                    </div>
+
+                    <div class="testimonial__card swiper-slide">
+                        <img src="/assets/img/testimonial3.png" alt="" class="testimonial__img">
+
+                        <h3 class="testimonial__name">iLady Mark</h3>
+                        <p class="testimonial__description">A flawless synergy between frontend and backend—every detail
+                            is meticulously crafted, creating a robust and elegant system that exceeds all expectations!
+                        </p>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--=============== CONTACT ===============-->
+        <section class="contact section" id="contact">
+            <span class="section__subtitle">Get In Touch</span>
+            <h2 class="section__title">Contact Me</h2>
+
+            <div class="contact__container container grid">
+                <div class="contact__content">
+                    <h3 class="contact__title">Talk To Me</h3>
+
+                    <div class="contact__info">
+                        <div class="contact__card">
+                            <i class="bx bx-mail-send contact__card-icon"></i>
+                            <h3 class="contact__card-title">Email</h3>
+                            <span class="contact__card-data">hanielabraxosmalik@gmail.com</span>
+
+                            <a href="mailto:hanielabraxosmalik@gmail.com" target="_blank" class="contact__button">Write
+                                to Me<i class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="bx bxl-whatsapp contact__card-icon"></i>
+                            <h3 class="contact__card-title">WhatsApp</h3>
+                            <span class="contact__card-data">0923048668887</span>
+
+                            <a href="https://api.whatsapp.com/send?phone=+923048668887&text=I'm your Portfolior"
+                                target="_blank" class="contact__button">Write to Me<i
+                                    class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        </div>
+
+                        <div class="contact__card">
+                            <i class="bx bxl-messenger contact__card-icon"></i>
+                            <h3 class="contact__card-title">Messenger</h3>
+                            <span class="contact__card-data">user.fb.VioletLightAngel</span>
+
+                            <a href="https://m.me/VioletLightAngel" target="_blank" class="contact__button">Write to
+                                Me<i class="bx bx-right-arrow-alt contact__button-icon"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact__content">
+                    <h3 class="contact__title">Write me your Projects</h3>
+
+                    <form action="" class="contact__form">
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Name</label>
+                            <input type="text" placeholder="Insert Your Name" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div">
+                            <label for="" class="contact__form-tag">Mail</label>
+                            <input type="text" placeholder="Insert Your Mail" class="contact__form-input">
+                        </div>
+
+                        <div class="contact__form-div contact__form-area">
+                            <label for="" class="contact__form-tag">Project</label>
+                            <textarea name="" id="" placeholder="Write Yout Project" cols="30" rows="10"
+                                class="contact__form-input"></textarea>
+                        </div>
+
+                        <button class="button">Send Message</button>
+                    </form>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+        <div class="footer__container container">
+            <h1 class="footer__title">Haniel</h1>
+
+            <ul class="footer__list">
+                <li>
+                    <a href="#about" class="footer__link">About</a>
+
+                </li>
+                <li>
+                    <a href="#work" class="footer__link">Projects</a>
+                </li>
+                <li>
+                    <a href="#testimonial" class="footer__link">Testimonial</a>
+                </li>
+            </ul>
+
+            <ul class="footer__social">
+                <a href="https://facebook.com/VioletLightAngel" target="_blank" class="footer__social-link">
+                    <i class="bx bxl-facebook"></i>
+                </a>
+
+                <a href="https://www.instagram.com/hanielabraxos/" target="_blank" class="footer__social-link"><i
+                        class="bx bxl-instagram"></i></a>
+
+                <a href="https://twitter.com/haniels_itweet/status/1496103571510771714" target="_blank"
+                    class="footer__social-link"><i class="bx bxl-twitter"></i></a>
+            </ul>
+
+            <span class="footer__copy">&#169; Haniel AbraSos Malik. All rights reserved</span>
+        </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="/assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="/assets/js/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="/assets/js/mixitup.min.js"></script>
+
+
+    <!--=============== MAIN JS ===============-->
+    <script src="/assets/js/main.js"></script>
+
+    <!--================ EMAIL J ==============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("JdHppl2YdHu1YtwcP");
+        })();
+        document.querySelector('.contact__form').addEventListener('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            // Collect form data
+            const name = document.querySelector('input[placeholder="Insert Your Name"]').value;
+            const email = document.querySelector('input[placeholder="Insert Your Mail"]').value;
+            const project = document.querySelector('textarea[placeholder="Write Yout Project"]').value;
+            console.log(name + "" + email + " " + project)
+            emailjs.send("haniel_iservice", "haniel_itemplate", {
+                from_name: name,
+                from_email: email,
+                message: project,
+            })
+                .then(function (response) {
+                    console.log("SUCCESS!", response.status, response.text);
+                    alert("Your message has been sent successfully!");
+                }, function (error) {
+                    console.log("FAILED...", error);
+                    alert("Oops! Something went wrong. Please try again.");
+                });
+        });
+    </script>
+</body>
+
+</html>
